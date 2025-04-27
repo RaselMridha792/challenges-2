@@ -16,10 +16,20 @@ int main (int argc, char *argv[]) {
       // }
 
       // or operator
-      int a;
+      // int a;
+      // printf("enter your number: ");
+      // scanf("%d", &a);
+      // if(a == 2 || a == 4){
+      //       printf("yes you are enter the even number");
+      // }else{
+      //       printf("wrong input");
+      // }
+
+      // logical or operator
+      int a, b;
       printf("enter your number: ");
-      scanf("%d", &a);
-      if(a == 2 || a == 4){
+      scanf("%d" "%d", &a, &b);
+      if(a != b){
             printf("yes you are enter the even number");
       }else{
             printf("wrong input");
